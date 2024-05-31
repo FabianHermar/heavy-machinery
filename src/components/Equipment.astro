@@ -7,27 +7,16 @@ import ItemCard from './ItemCard.astro'
 >
   <div class='max-w-2xl'>
     <h2
-      class='text-lg pl-1 leading-7 text-transparent bg-clip-text bg-gradient-to-b from-[#04B4E6] to-blue-600 font-[GilroySemiBold]'
+      class='text-lg pl-1 leading-7 text-transparent bg-clip-text bg-gradient-to-b from-[#e65b04] to-yellow-500 font-ISSemibold'
     >
-      Components
+      Encuentra el equipamiento perfecto
     </h2>
-    <p class='mt-4 text-5xl tracking-tight text-slate-900 font-GilroyBold'>
-      Elegant, ready-to-implement user interface components for your project,
-      designed to enhance aesthetics and functionality.
+    <p class='mt-4 text-5xl tracking-tight text-slate-900 font-ISBold'>
+      Descubre las maquinarias y herramientas de trabajo rudo que necesitas <span
+        class='text-transparent bg-clip-text bg-gradient-to-b from-[#e65b04] to-yellow-500'
+        >.</span
+      >
     </p>
-    <div class='max-w-xl'>
-      <p class='mt-4 text-base leading-7 text-slate-700 font-GilroyRegular'>
-        Components and templates expertly designed to bring your next project to
-        life with a touch of unmatched excellence and style.
-      </p>
-    </div>
-    <div class='mt-6'>
-      <a
-        class='text-base text-transparent bg-clip-text bg-gradient-to-b from-[#04B4E6] to-blue-600 font-GilroySemibold hover:text-cyan-500 transition-colors'
-        href='/components'
-        >Browse all components <span aria-hidden='true'>→</span>
-      </a>
-    </div>
   </div>
   <div>
     <ItemCard />
@@ -40,10 +29,26 @@ import ItemCard from './ItemCard.astro'
     class='select-none pointer-events-none relative z-10 -mt-5 flex justify-center'
   >
     <a
-      class='inline-flex text-sm justify-center rounded-lg overflow-hidden items-center font-GilroySemibold py-3 px-4 bg-primary text-white dark:hover:bg-cyan-600 transition-colors duration-100 hover:bg-slate-700 pointer-events-auto'
-      href='/components'
+      href='#!'
+      class='group inline-flex text-sm justify-center rounded-lg overflow-hidden items-center font-ISSemibold py-3 px-4 bg-black hover:text-black text-white hover:bg-yellow-500 transition-colors duration-75 pointer-events-auto'
     >
-      <span> More components → </span>
+      <span>Ver más &nbsp;</span>
+      <div class='ml-1 transition group-hover:translate-x-1'>
+        <svg
+          width='15'
+          height='15'
+          viewBox='0 0 15 15'
+          fill='none'
+          xmlns='http://www.w3.org/2000/svg'
+          class='h-5 w-5'
+        >
+          <path
+            d='M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z'
+            fill='currentColor'
+            fill-rule='evenodd'
+            clip-rule='evenodd'></path>
+        </svg>
+      </div>
     </a>
   </div>
 </section>
