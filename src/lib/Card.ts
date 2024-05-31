@@ -10,84 +10,84 @@ export const CARDS: Card[] = [
   {
     title: 'Camiones Articulados',
     image: '/HM/1.jpeg',
-    href: '#',
+    href: '#!',
     alt: 'Camiones Articulados',
     description: 'Los camiones articulados BIGFORCE® establecen el estándar en cuanto a calidad, fiabilidad y productividad en aplicaciones de minería y otros tipos de operaciones.'
   },
   {
     title: 'Camiones de Obras',
     image: '/HM/2.jpeg',
-    href: '#',
+    href: '#!',
     alt: 'Camiones de Obras',
     description: 'Los camiones de obras BIGFORCE® son la solución perfecta para el transporte de materiales en aplicaciones de construcción, canteras y minería.'
   },
   {
     title: 'Cargadores de Cadena',
     image: '/HM/3.jpeg',
-    href: '#',
+    href: '#!',
     alt: 'Cargadores de Cadena',
     description: 'Los cargadores de cadena BIGFORCE® son la solución perfecta para aplicaciones de minería, construcción y canteras.'
   },
   {
     title: 'Cargadores de Ruedas',
     image: '/HM/4.jpeg',
-    href: '#',
+    href: '#!',
     alt: 'Cargadores de Ruedas',
     description: 'Los cargadores de ruedas BIGFORCE® son la solución perfecta para aplicaciones de minería, construcción y canteras.'
   },
   {
     title: 'Compactadores',
     image: '/HM/5.jpeg',
-    href: '#',
+    href: '#!',
     alt: 'Compactadores',
     description: 'Los compactadores BIGFORCE® son la solución perfecta para aplicaciones de construcción, canteras y minería.'
   },
   {
     title: 'Dragalinas',
     image: '/HM/6.jpeg',
-    href: '#',
+    href: '#!',
     alt: 'Dragalinas',
     description: 'Las dragalinas BIGFORCE® son la solución perfecta para aplicaciones de minería, construcción y canteras.'
   },
   {
     title: 'Equipo subterráneo para roca',
     image: '/HM/7.jpeg',
-    href: '#',
+    href: '#!',
     alt: 'Equipo subterráneo para roca dura',
     description: 'El equipo subterráneo BIGFORCE® para roca dura es la solución perfecta para aplicaciones de minería subterránea.'
   },
   {
     title: 'Excavadoras',
     image: '/HM/8.jpeg',
-    href: '#',
+    href: '#!',
     alt: 'Excavadoras',
     description: 'Las excavadoras BIGFORCE® son la solución perfecta para aplicaciones de minería, construcción y canteras.'
   },
   {
     title: 'Manipuladores de Materiales',
     image: '/HM/9.jpeg',
-    href: '#',
+    href: '#!',
     alt: 'Manipuladores de Materiales',
     description: 'Los manipuladores de materiales BIGFORCE® son la solución perfecta para aplicaciones de construcción, canteras y minería.'
   },
   {
     title: 'Manipuladores Telescópicos',
     image: '/HM/10.jpeg',
-    href: '#',
+    href: '#!',
     alt: 'Manipuladores Telescópicos',
     description: 'Los manipuladores telescópicos BIGFORCE® son la solución perfecta para aplicaciones de construcción, canteras y minería.'
   },
   {
     title: 'Pavimentadoras de Asfalto',
     image: '/HM/11.jpeg',
-    href: '#',
+    href: '#!',
     alt: 'Pavimentadoras de Asfalto',
     description: 'Las pavimentadoras de asfalto BIGFORCE® son la solución perfecta para aplicaciones de construcción, canteras y minería.'
   },
   {
     title: 'Retroexcavadoras',
     image: '/HM/12.jpeg',
-    href: '#',
+    href: '#!',
     alt: 'Retroexcavadoras',
     description: 'Las retroexcavadoras BIGFORCE® son la solución perfecta para aplicaciones de construcción, canteras y minería.'
   }
