@@ -1,22 +1,28 @@
+---
+import Container from './Container.astro'
+---
+
 <section class='-z-10 relative bg-[url(/HM.webp)] bg-cover bg-top bg-no-repeat'>
-  <div class='absolute inset-0 bg-gradient-to-r from-black to-transparent'>
-  </div>
-
-  <div
-    class='relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-[630px] lg:items-center lg:px-8'
-  >
-    <div class='max-w-xl text-left'>
-      <h1 class='text-3xl font-ISBold sm:text-5xl text-white pb-4'>
-        Potencia y Fiabilidad para Construir tu Futuro
-      </h1>
-
-      <hr class='border-4 border-solid border-yellow-500 w-full' />
-
-      <p class='mt-4 max-w-lg font-ISRegular text-white sm:text-xl/relaxed'>
-        Te brindamos herramientas robustas y soluciones confiables para que
-        puedas construir tus sueños con fuerza y confianza. Con nosotros, tu
-        futuro está en buenas manos.
-      </p>
+  <Container>
+    <div class='absolute inset-0 bg-gradient-to-r from-black to-transparent'>
     </div>
-  </div>
+
+    <div
+      class='relative mx-auto max-w-screen-xl py-32 lg:flex lg:h-[630px] lg:items-center'
+    >
+      <div class='max-w-xl text-left'>
+        <h1 class='text-3xl font-ISBold sm:text-5xl text-white pb-4'>
+          Potencia y Fiabilidad para Construir tu Futuro
+        </h1>
+
+        <hr class='border-4 border-solid border-yellow-500 w-full' />
+
+        <p class='mt-4 max-w-lg font-ISRegular text-white sm:text-xl/relaxed'>
+          Te brindamos herramientas robustas y soluciones confiables para que
+          puedas construir tus sueños con fuerza y confianza. Con nosotros, tu
+          futuro está en buenas manos.
+        </p>
+      </div>
+    </div>
+  </Container>
 </section>
