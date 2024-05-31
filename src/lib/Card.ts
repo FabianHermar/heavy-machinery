@@ -50,7 +50,7 @@ export const CARDS: Card[] = [
     description: 'Las dragalinas BIGFORCE® son la solución perfecta para aplicaciones de minería, construcción y canteras.'
   },
   {
-    title: 'Equipo subterráneo para roca dura',
+    title: 'Equipo subterráneo para roca',
     image: '/HM/7.jpeg',
     href: '#',
     alt: 'Equipo subterráneo para roca dura',
