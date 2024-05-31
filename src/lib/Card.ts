@@ -12,7 +12,7 @@ export const CARDS: Card[] = [
     image: '/HM/1.jpeg',
     href: '#',
     alt: 'Camiones Articulados',
-    description: 'Los camiones articulados BIGFORCE® establecen el estándar en cuanto a calidad, fiabilidad y productividad en aplicaciones de minería, construcción, canteras y otros tipos de operaciones.'
+    description: 'Los camiones articulados BIGFORCE® establecen el estándar en cuanto a calidad, fiabilidad y productividad en aplicaciones de minería y otros tipos de operaciones.'
   },
   {
     title: 'Camiones de Obras',
