@@ -2,13 +2,13 @@
 import Container from './Container.astro'
 ---
 
-<section class='lg:pt-32 h-screen'>
+<section class='pt-24 lg:pt-32 h-screen'>
   <Container>
     <div class=''>
-      <h2 class='font-ISBold text-5xl'>
+      <h2 class='font-ISBold text-3xl lg:text-5xl'>
         Nuestro <span class='underline decoration-yellow-500'>Legado</span>
       </h2>
-      <p class='font-ISRegular text-2xl pt-6'>
+      <p class='font-ISRegular text-lg lg:text-2xl pt-6'>
         Somos líderes en la industria de maquinaria pesada, dedicados a
         proporcionar soluciones innovadoras y de alta calidad para satisfacer
         las necesidades de nuestros clientes en los sectores de la construcción,
@@ -16,15 +16,17 @@ import Container from './Container.astro'
       </p>
     </div>
     <div class='flex flex-col overflow-hidden'>
-      <div class='grid grid-cols-2'>
+      <div class='grid grid-cols-1 lg:grid-cols-2'>
         <div class='h-full w-full select-none'>
           <img src='/history.webp' alt='Workers' class='h-auto w-full' />
         </div>
         <div class='flex flex-col justify-center'>
-          <h3 class='font-ISBold text-3xl pt-6 text-yellow-500 drop-shadow'>
+          <h3
+            class='font-ISBold text-xl lg:text-3xl pt-6 text-yellow-500 drop-shadow'
+          >
             Nuestra historia
           </h3>
-          <p class='font-ISRegular text-2xl pt-6'>
+          <p class='font-ISRegular text-lg lg:text-2xl pt-6'>
             Fundada en 1998, BIGFORCE ha crecido y evolucionado hasta
             convertirse en una referencia en el mercado de maquinaria pesada.
             Con más de 25 años de experiencia, hemos establecido una sólida
@@ -33,13 +35,22 @@ import Container from './Container.astro'
           </p>
         </div>
       </div>
-      <div>
-        <div class='grid grid-cols-2'>
+      <div class='lg:pt-16'>
+        <div class='grid grid-cols-1 lg:grid-cols-2'>
           <div class='flex flex-col justify-center'>
-            <h3 class='font-ISBold text-3xl pt-6 text-yellow-500 drop-shadow'>
+            <div class='h-full w-full select-none block lg:hidden'>
+              <img
+                src='/mission.webp'
+                alt='Workers'
+                class='h-auto w-full pt-10 lg:pt-0'
+              />
+            </div>
+            <h3
+              class='font-ISBold text-xl lg:text-3xl pt-6 text-yellow-500 drop-shadow'
+            >
               Nuestra misión
             </h3>
-            <p class='font-ISRegular text-2xl pt-6'>
+            <p class='font-ISRegular text-lg lg:text-2xl pt-6'>
               Nuestra misión es ofrecer maquinaria pesada de alta calidad y
               rendimiento, respaldada por un servicio al cliente excepcional.
               Nos comprometemos a ser socios confiables para nuestros clientes,
@@ -48,7 +59,7 @@ import Container from './Container.astro'
               rentable.
             </p>
           </div>
-          <div class='h-full w-full select-none'>
+          <div class='h-full w-full select-none hidden lg:block'>
             <img src='/mission.webp' alt='Workers' class='h-auto w-full' />
           </div>
         </div>
