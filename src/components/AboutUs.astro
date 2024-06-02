@@ -2,9 +2,9 @@
 import Container from './Container.astro'
 ---
 
-<section class='lg:pt-6 h-screen'>
+<section class='lg:pt-32 h-screen'>
   <Container>
-    <div>
+    <div class=''>
       <h2 class='font-ISBold text-5xl'>
         Nuestro <span class='underline decoration-yellow-500'>Legado</span>
       </h2>
@@ -15,6 +15,44 @@ import Container from './Container.astro'
         minería, agricultura y otros campos industriales.
       </p>
     </div>
-    <div></div>
+    <div class='flex flex-col overflow-hidden'>
+      <div class='grid grid-cols-2'>
+        <div class='h-full w-full select-none'>
+          <img src='/history.webp' alt='Workers' class='h-auto w-full' />
+        </div>
+        <div class='flex flex-col justify-center'>
+          <h3 class='font-ISBold text-3xl pt-6 text-yellow-500 drop-shadow'>
+            Nuestra historia
+          </h3>
+          <p class='font-ISRegular text-2xl pt-6'>
+            Fundada en 1998, BIGFORCE ha crecido y evolucionado hasta
+            convertirse en una referencia en el mercado de maquinaria pesada.
+            Con más de 25 años de experiencia, hemos establecido una sólida
+            reputación basada en la confianza, la excelencia y la satisfacción
+            del cliente.
+          </p>
+        </div>
+      </div>
+      <div>
+        <div class='grid grid-cols-2'>
+          <div class='flex flex-col justify-center'>
+            <h3 class='font-ISBold text-3xl pt-6 text-yellow-500 drop-shadow'>
+              Nuestra misión
+            </h3>
+            <p class='font-ISRegular text-2xl pt-6'>
+              Nuestra misión es ofrecer maquinaria pesada de alta calidad y
+              rendimiento, respaldada por un servicio al cliente excepcional.
+              Nos comprometemos a ser socios confiables para nuestros clientes,
+              proporcionándoles equipos duraderos, eficientes y seguros que les
+              permitan llevar a cabo sus proyectos de manera efectiva y
+              rentable.
+            </p>
+          </div>
+          <div class='h-full w-full select-none'>
+            <img src='/mission.webp' alt='Workers' class='h-auto w-full' />
+          </div>
+        </div>
+      </div>
+    </div>
   </Container>
 </section>
